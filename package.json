@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "release": "standard-version",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
