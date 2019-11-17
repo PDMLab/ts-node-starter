@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/PDMLab/ts-node-starter/issues"
   },
-  "homepage": "https://github.com/PDMLab/ts-node-starter#readme"
+  "homepage": "https://github.com/PDMLab/ts-node-starter#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-conventional": "^8.2.0",
+    "husky": "^3.0.9",
+    "standard-version": "^7.0.0"
+  }
 }
