@@ -2,7 +2,16 @@
   "name": "ts-node-starter",
   "version": "0.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.js.map",
+    "dist/**/*.d.ts"
+  ],
   "scripts": {
     "build": "tsc",
     "prerelease": "yarn build",
